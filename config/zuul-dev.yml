@@ -29,8 +29,8 @@ zuul:
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
-  MaxAutoRetriesNextServer: 1  #榛樿1
-  MaxAutoRetries: 1            #榛樿0
+  MaxAutoRetriesNextServer: 1  
+  MaxAutoRetries: 1            
 
 hystrix:
   command:
